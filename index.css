@@ -1,0 +1,479 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgb(215, 215, 215);
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+header h1{
+    color: black;
+    text-transform: capitalize;
+}
+.header-lien a{
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+.header-lien a:hover {
+    color: #333; 
+    background-color: #f0f0f0;
+}
+
+.hero-section{
+    background-color: white;
+    display: flex;
+    height: 80vh;
+
+}
+.hero-section img{
+    width: 50%;
+}
+.hero-discr{
+    background-color: rgb(243, 184, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    text-align: center;
+    color: black;
+    width: 50%;
+}
+.hero-discr h2{
+    font-size: 3em;
+    text-transform: capitalize;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hero-discr p{
+    font-size: 1.5em;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hero-discr a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 35px;
+}
+.hero-discr a:hover{
+    background-color:gray;
+    box-shadow: 20px ;
+}
+.our-service{
+    background-color: white;
+    padding-bottom: 100px;
+}
+.service-title{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.service-title h2{
+    color: black;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+.service-title p{
+    text-align: center;
+    font-size: 1.1em;
+}
+.parent-services{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.services{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+.services img{
+    width: 20%;
+}
+.services h3{
+    color: black;
+    font-size: 1.6em;
+    text-transform: capitalize;
+}
+.services p{
+    padding-top: 40px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2;
+}
+.hero-section2{
+    background-color: white;
+    display: flex;
+    height: 80vh;
+    background-color: rgb(243, 184, 74);
+
+}
+.hero-section2 img{
+    width: 50%;
+    margin: 50px;
+}
+.hero-discr2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    text-align: center;
+    color: black;
+    width: 50%;
+}
+.hero-discr2 h2{
+    font-size: 3em;
+    text-transform: capitalize;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hero-discr2 p{
+    font-size: 1.5em;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hero-discr2 a{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 35px;
+    font-size: 1.5em;
+}
+.hero-discr2 a:hover{
+    background-color:gray;
+    box-shadow: 20px ;
+}
+.projects{
+    background-color: white;
+}
+.projects-title{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;  
+}
+.projects-title h3{
+    color: black;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+.projects-title p{
+    text-align: center;
+    font-size: 1.1em;
+}
+.pictures-projects{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:100px ;
+    padding-bottom: 40px;
+}
+.article{
+    position: relative;
+}
+.pictures-projects div{
+    width: 45%;
+}
+.article img{
+    width: 100%;
+}
+.article h2 {
+    color: rgba(255, 255, 255, 0.768);
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    text-transform: capitalize;
+}
+.statistique{
+    background-color: rgb(243, 184, 74) ;
+    display: flex;
+    justify-content: space-between;
+}
+.div-statistiques{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;;
+    gap:20px;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#color{
+    background-color:rgb(232, 159, 24)  ;
+}
+.div-statistiques h2{
+    font-size: 3em;
+}
+.blogs{
+    background-color: white;
+}
+.blogs-title{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;  
+}
+.blogs-title h3{
+    color: black;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+.blogs-title p{
+    text-align: center;
+    font-size: 1.1em;
+}
+.blog-article{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    row-gap: 40px;
+}
+.blog h3{
+    color: black;
+    font-size: 2em;
+}
+.blog img{
+    width: 100%;
+}
+.blog a{
+    color: black;
+    background-color: rgb(243, 184, 74);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    align-self: flex-start;
+    padding: 10px 15px;
+}
+.blog a:hover{
+    color: #333; 
+    background-color: #f0f0f0;
+}
+.team{
+    background-color: rgba(240, 240, 240, 0.814);
+}
+.team-title{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;  
+}
+.team-title h2{
+    color: black;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+.team-title p{
+    text-align: center;
+    font-size: 1.1em;   
+}
+.persons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.businessman{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-bottom: 80px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+.businessman img{
+    width: 40%;
+    border-radius: 50%;
+}
+.businessman h2{
+    color: black;
+    text-transform: capitalize;
+}
+.businessman p{
+    align-self: center;
+    text-transform: lowercase;
+}
+.paragraph{
+    text-align: center;
+    line-height: 40px;
+    padding-left:80px ;
+    padding-right:80px ;
+}
+.pricing-table {
+    background-color: white;
+}
+.pricing-table-title{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.pricing-table-title h2{
+    color: black;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+.pricing-table-title p{
+    text-align: center;
+    font-size: 1.1em
+}
+.prix {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(237, 181, 77); /* Add border to .prix */
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+     display: flex;
+     flex-direction: column;
+     row-gap: 40px;
+}
+.prix h2{
+    font-size: 1.1em;
+
+}
+.price{
+    font-size: 4em;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding-bottom: 30px;
+}
+.prix-area{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding: 60px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+footer address{
+    font-size: 2em;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+.unsibscribe{
+    text-decoration: none;
+    color:rgb(237, 181, 77) ;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    width: 40px; 
+    margin: 0 10px; 
+}
+/* Media queries  */
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-section img,
+    .hero-section2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-discr,
+    .hero-discr2 {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .parent-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services {
+        width: 80%;
+    }
+
+    .pictures-projects,
+    .blog {
+        flex-direction: column;
+    }
+
+    .blog-article,
+    .article {
+        width: 100%;
+    }
+
+    .persons .businessman {
+        width: 80%;
+    }
+
+    .pricing-table .prix {
+        width: 80%;
+    }
+}
+
